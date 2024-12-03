@@ -144,7 +144,7 @@ nicegui:
   ### serve the web service
   host: '127.0.0.1'
   ### port for serving the web service
-  port: 8080
+  port: 8081
   ### main module with pages to serve
   pages: ba_interface.core.pages.index
   ### name of default route (/) function
