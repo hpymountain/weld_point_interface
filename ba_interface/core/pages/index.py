@@ -1,5 +1,4 @@
 from tokeo.ext.appshare import app
-from ba_interface.core import consts
 from ba_interface.core.pages import layout
 from pathlib import Path
 
