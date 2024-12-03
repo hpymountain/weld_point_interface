@@ -1,0 +1,44 @@
+git status
+git add pockt*
+git add pocket*
+git status
+git commit -m "setup database"
+git push
+git status
+git add .history.d
+git commit -m "add terminal command history"
+git status
+git add .hist*
+git status
+git commit -m "add terminal command history"
+git add winterfell/core/consts.py
+git status
+git commit -m "add: consts for logic"
+git add winterfell/core/pages/
+git status
+git commit -m "add: new page invoice"
+git add .
+git commit -m "background stuff"
+git push
+git status
+git commit -m "add: invoice link to landing page"
+git status
+git add winterfell
+git status
+git add winterfell*
+git status
+git commit -m "add: invoice link to landing page"
+git push
+git status
+git add winterfell/
+git status
+git commit -m "add: constants file"
+git push
+git pull
+git config pull.rebase false
+git pull
+git commit -m "merge necessary"
+git satus
+git status
+ps -ef | grep winterfell
+kill -9 49787

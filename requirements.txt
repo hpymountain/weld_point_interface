@@ -1,0 +1,17 @@
+cement @ git+https://github.com/datafolklabs/cement.git@main
+cement[jinja2]
+cement[yaml]
+cement[colorlog]
+lazy_loader
+prompt_toolkit
+diskcache
+gevent
+dramatiq
+dramatiq[rabbitmq]
+dramatiq[watch]
+grpcio
+grpcio-tools
+apscheduler < 4
+nicegui
+pocketbase
+requests

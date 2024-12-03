@@ -1,0 +1,9 @@
+recursive-include config *.yaml
+recursive-exclude config *.local.yaml
+recursive-include tokeo *.py
+recursive-include tokeo/templates *
+recursive-include ba_interface *.py
+recursive-include ba_interface/templates *
+include setup.py setup.cfg
+include README.md CHANGELOG.md LICENSE.md
+include requirements*.txt

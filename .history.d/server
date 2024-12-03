@@ -1,0 +1,10 @@
+source .venv/bin/activate
+winterfell nicegui launch
+source .venv/bin/activate
+winterfell nicegui launch
+source .venv/bin/activate
+winterfell nicegui launch
+source .venv/bin/activate
+winterfell nicegui launch
+source .venv/bin/activate
+winterfell nicegui launch
