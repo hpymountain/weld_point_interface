@@ -107,7 +107,7 @@ config/*.local.yaml
 .mypy_cache/
 
 # diskcache
-.ba_interface_diskcache/
+.ba_interface_diskcache/*
 
 
 .DS_Store
