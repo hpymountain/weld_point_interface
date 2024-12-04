@@ -25,6 +25,12 @@ def generate_dsg_file():
     dsg_file_path.write_text(dsg_content)
     return dsg_file_path
 
+
+def start_process():
+  print('proocess run')
+  ui.notify('Analysis in progress!')
+
+
 def default():
     with layout.page_layout():
 
@@ -46,7 +52,7 @@ def default():
             label.bind_text_from(switch, 'value', backward=lambda value: 'Yes' if value else 'No')
 
         # Run-Button
-        ui.button('Process Image!', on_click=lambda: ui.notify('Analysis in progress!')).classes('mt-8 w-2/3')
+        ui.button('Process Image!', on_click=lambda: start_process()).classes('mt-8 w-2/3')
 
         # DSG File Download Button
         ux.p('Download coordinates as DSG file:').classes('text-sm font-semibold leading-6 text-gray-900 mt-8')

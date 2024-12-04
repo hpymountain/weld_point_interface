@@ -32,11 +32,6 @@ class BAInterface(App):
             'tokeo.ext.yaml',
             'tokeo.ext.appenv',
             'tokeo.ext.appshare',
-            'tokeo.ext.smtp',
-            'tokeo.ext.scheduler',
-            'tokeo.ext.diskcache',
-            'tokeo.ext.pocketbase',
-            'tokeo.ext.dramatiq',
             'tokeo.ext.nicegui',
         ]
 
